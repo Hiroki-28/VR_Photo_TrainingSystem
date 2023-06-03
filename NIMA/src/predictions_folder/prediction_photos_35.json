@@ -1,0 +1,1902 @@
+[
+  {
+    "image_id": "1",
+    "label": 0,
+    "mean_score_prediction": 2.905575543642044
+  },
+  {
+    "image_id": "1006",
+    "label": 0,
+    "mean_score_prediction": 2.0426907557994127
+  },
+  {
+    "image_id": "1009",
+    "label": 1,
+    "mean_score_prediction": 4.095453380024992
+  },
+  {
+    "image_id": "1015",
+    "label": 1,
+    "mean_score_prediction": 3.9872046711680014
+  },
+  {
+    "image_id": "1022",
+    "label": 0,
+    "mean_score_prediction": 2.9219104312360287
+  },
+  {
+    "image_id": "1056",
+    "label": 0,
+    "mean_score_prediction": 2.982034768909216
+  },
+  {
+    "image_id": "1063",
+    "label": 1,
+    "mean_score_prediction": 3.0214253179728985
+  },
+  {
+    "image_id": "109",
+    "label": 0,
+    "mean_score_prediction": 2.4587514717131853
+  },
+  {
+    "image_id": "1096",
+    "label": 1,
+    "mean_score_prediction": 3.3394752191379666
+  },
+  {
+    "image_id": "1101",
+    "label": 1,
+    "mean_score_prediction": 4.213100454071537
+  },
+  {
+    "image_id": "1103",
+    "label": 1,
+    "mean_score_prediction": 3.2840224355459213
+  },
+  {
+    "image_id": "1106",
+    "label": 1,
+    "mean_score_prediction": 4.098153133294545
+  },
+  {
+    "image_id": "1117",
+    "label": 0,
+    "mean_score_prediction": 2.255174865014851
+  },
+  {
+    "image_id": "1135",
+    "label": 1,
+    "mean_score_prediction": 3.3843161896802485
+  },
+  {
+    "image_id": "1158",
+    "label": 0,
+    "mean_score_prediction": 2.763709768652916
+  },
+  {
+    "image_id": "1159",
+    "label": 1,
+    "mean_score_prediction": 3.8291999204084277
+  },
+  {
+    "image_id": "1166",
+    "label": 1,
+    "mean_score_prediction": 3.6321267038583755
+  },
+  {
+    "image_id": "1195",
+    "label": 0,
+    "mean_score_prediction": 2.4865185227245092
+  },
+  {
+    "image_id": "1201",
+    "label": 1,
+    "mean_score_prediction": 4.207728814042639
+  },
+  {
+    "image_id": "1230",
+    "label": 1,
+    "mean_score_prediction": 3.582486436702311
+  },
+  {
+    "image_id": "1241",
+    "label": 1,
+    "mean_score_prediction": 3.392389055341482
+  },
+  {
+    "image_id": "1261",
+    "label": 1,
+    "mean_score_prediction": 3.380605762358755
+  },
+  {
+    "image_id": "1267",
+    "label": 1,
+    "mean_score_prediction": 3.9284596680663526
+  },
+  {
+    "image_id": "1277",
+    "label": 0,
+    "mean_score_prediction": 2.816265309229493
+  },
+  {
+    "image_id": "1283",
+    "label": 1,
+    "mean_score_prediction": 3.2215698584914207
+  },
+  {
+    "image_id": "1285",
+    "label": 1,
+    "mean_score_prediction": 3.9188253777101636
+  },
+  {
+    "image_id": "1289",
+    "label": 1,
+    "mean_score_prediction": 3.4887411687523127
+  },
+  {
+    "image_id": "1297",
+    "label": 1,
+    "mean_score_prediction": 3.7258396078832448
+  },
+  {
+    "image_id": "1299",
+    "label": 0,
+    "mean_score_prediction": 2.4486725963652134
+  },
+  {
+    "image_id": "1301",
+    "label": 0,
+    "mean_score_prediction": 2.2670360431075096
+  },
+  {
+    "image_id": "1308",
+    "label": 0,
+    "mean_score_prediction": 2.22824717592448
+  },
+  {
+    "image_id": "131",
+    "label": 1,
+    "mean_score_prediction": 3.9119403704535216
+  },
+  {
+    "image_id": "1331",
+    "label": 0,
+    "mean_score_prediction": 1.607451422023587
+  },
+  {
+    "image_id": "1335",
+    "label": 1,
+    "mean_score_prediction": 4.183207591529936
+  },
+  {
+    "image_id": "1343",
+    "label": 0,
+    "mean_score_prediction": 2.5502466298639774
+  },
+  {
+    "image_id": "1354",
+    "label": 0,
+    "mean_score_prediction": 1.563300647889264
+  },
+  {
+    "image_id": "1366",
+    "label": 0,
+    "mean_score_prediction": 1.7889587809331715
+  },
+  {
+    "image_id": "1426",
+    "label": 1,
+    "mean_score_prediction": 4.371749420075503
+  },
+  {
+    "image_id": "1449",
+    "label": 1,
+    "mean_score_prediction": 3.048011366277933
+  },
+  {
+    "image_id": "1457",
+    "label": 1,
+    "mean_score_prediction": 3.335022230632603
+  },
+  {
+    "image_id": "1458",
+    "label": 1,
+    "mean_score_prediction": 3.882476317434339
+  },
+  {
+    "image_id": "1462",
+    "label": 1,
+    "mean_score_prediction": 3.035138450562954
+  },
+  {
+    "image_id": "147",
+    "label": 0,
+    "mean_score_prediction": 1.8056557080708444
+  },
+  {
+    "image_id": "1484",
+    "label": 0,
+    "mean_score_prediction": 2.6440736781805754
+  },
+  {
+    "image_id": "1507",
+    "label": 1,
+    "mean_score_prediction": 3.8178418745519593
+  },
+  {
+    "image_id": "1514",
+    "label": 0,
+    "mean_score_prediction": 2.772856405004859
+  },
+  {
+    "image_id": "1520",
+    "label": 1,
+    "mean_score_prediction": 3.9503941486764234
+  },
+  {
+    "image_id": "1529",
+    "label": 1,
+    "mean_score_prediction": 4.028609705623239
+  },
+  {
+    "image_id": "1542",
+    "label": 1,
+    "mean_score_prediction": 3.103415470570326
+  },
+  {
+    "image_id": "1544",
+    "label": 0,
+    "mean_score_prediction": 2.009978286921978
+  },
+  {
+    "image_id": "1581",
+    "label": 1,
+    "mean_score_prediction": 3.00054232776165
+  },
+  {
+    "image_id": "1590",
+    "label": 0,
+    "mean_score_prediction": 1.819933992344886
+  },
+  {
+    "image_id": "1592",
+    "label": 0,
+    "mean_score_prediction": 2.5348420701920986
+  },
+  {
+    "image_id": "1594",
+    "label": 1,
+    "mean_score_prediction": 4.152023981441744
+  },
+  {
+    "image_id": "1599",
+    "label": 0,
+    "mean_score_prediction": 2.9489644058048725
+  },
+  {
+    "image_id": "1605",
+    "label": 1,
+    "mean_score_prediction": 4.342715979299101
+  },
+  {
+    "image_id": "1613",
+    "label": 0,
+    "mean_score_prediction": 2.744150973856449
+  },
+  {
+    "image_id": "1615",
+    "label": 0,
+    "mean_score_prediction": 1.8426448539830744
+  },
+  {
+    "image_id": "1622",
+    "label": 0,
+    "mean_score_prediction": 1.9083903413265944
+  },
+  {
+    "image_id": "164",
+    "label": 0,
+    "mean_score_prediction": 1.687231051386334
+  },
+  {
+    "image_id": "1660",
+    "label": 1,
+    "mean_score_prediction": 4.0952960241702385
+  },
+  {
+    "image_id": "1671",
+    "label": 0,
+    "mean_score_prediction": 1.6357899943832308
+  },
+  {
+    "image_id": "1673",
+    "label": 0,
+    "mean_score_prediction": 1.8108452828601003
+  },
+  {
+    "image_id": "1674",
+    "label": 1,
+    "mean_score_prediction": 3.227586168795824
+  },
+  {
+    "image_id": "1687",
+    "label": 0,
+    "mean_score_prediction": 2.633190030232072
+  },
+  {
+    "image_id": "169",
+    "label": 1,
+    "mean_score_prediction": 3.450067336205393
+  },
+  {
+    "image_id": "1698",
+    "label": 1,
+    "mean_score_prediction": 4.169051740318537
+  },
+  {
+    "image_id": "172",
+    "label": 0,
+    "mean_score_prediction": 1.583763770351652
+  },
+  {
+    "image_id": "1721",
+    "label": 1,
+    "mean_score_prediction": 3.237007262185216
+  },
+  {
+    "image_id": "1727",
+    "label": 1,
+    "mean_score_prediction": 3.0759143866598606
+  },
+  {
+    "image_id": "1731",
+    "label": 0,
+    "mean_score_prediction": 1.6436561160953715
+  },
+  {
+    "image_id": "1737",
+    "label": 0,
+    "mean_score_prediction": 2.4366597710177302
+  },
+  {
+    "image_id": "1740",
+    "label": 1,
+    "mean_score_prediction": 4.099583254639583
+  },
+  {
+    "image_id": "1742",
+    "label": 0,
+    "mean_score_prediction": 2.9255071505904198
+  },
+  {
+    "image_id": "1747",
+    "label": 0,
+    "mean_score_prediction": 2.4748206958174706
+  },
+  {
+    "image_id": "180",
+    "label": 0,
+    "mean_score_prediction": 2.817937195301056
+  },
+  {
+    "image_id": "1802",
+    "label": 0,
+    "mean_score_prediction": 2.206016391515732
+  },
+  {
+    "image_id": "1846",
+    "label": 0,
+    "mean_score_prediction": 1.4972315941995475
+  },
+  {
+    "image_id": "1847",
+    "label": 1,
+    "mean_score_prediction": 3.8236895381705835
+  },
+  {
+    "image_id": "1849",
+    "label": 1,
+    "mean_score_prediction": 4.189470540033653
+  },
+  {
+    "image_id": "1852",
+    "label": 0,
+    "mean_score_prediction": 1.5030404732970055
+  },
+  {
+    "image_id": "1854",
+    "label": 0,
+    "mean_score_prediction": 1.5780217358842492
+  },
+  {
+    "image_id": "1862",
+    "label": 1,
+    "mean_score_prediction": 4.074017946026288
+  },
+  {
+    "image_id": "1863",
+    "label": 1,
+    "mean_score_prediction": 4.013185430318117
+  },
+  {
+    "image_id": "1876",
+    "label": 0,
+    "mean_score_prediction": 1.699149303836748
+  },
+  {
+    "image_id": "1881",
+    "label": 0,
+    "mean_score_prediction": 2.2386871464550495
+  },
+  {
+    "image_id": "1911",
+    "label": 1,
+    "mean_score_prediction": 4.193405294892727
+  },
+  {
+    "image_id": "1915",
+    "label": 1,
+    "mean_score_prediction": 3.507808214984834
+  },
+  {
+    "image_id": "1916",
+    "label": 1,
+    "mean_score_prediction": 3.401433756109327
+  },
+  {
+    "image_id": "1919",
+    "label": 0,
+    "mean_score_prediction": 1.5891433349461295
+  },
+  {
+    "image_id": "1955",
+    "label": 1,
+    "mean_score_prediction": 4.176465570461005
+  },
+  {
+    "image_id": "1959",
+    "label": 0,
+    "mean_score_prediction": 2.7849623784422874
+  },
+  {
+    "image_id": "1961",
+    "label": 1,
+    "mean_score_prediction": 3.284061575308442
+  },
+  {
+    "image_id": "1975",
+    "label": 0,
+    "mean_score_prediction": 2.841230796650052
+  },
+  {
+    "image_id": "1982",
+    "label": 0,
+    "mean_score_prediction": 2.585408518090844
+  },
+  {
+    "image_id": "1993",
+    "label": 0,
+    "mean_score_prediction": 1.8513447046279907
+  },
+  {
+    "image_id": "2019",
+    "label": 1,
+    "mean_score_prediction": 4.239816572109703
+  },
+  {
+    "image_id": "2024",
+    "label": 1,
+    "mean_score_prediction": 3.741240845993161
+  },
+  {
+    "image_id": "2028",
+    "label": 0,
+    "mean_score_prediction": 2.3775746058672667
+  },
+  {
+    "image_id": "2049",
+    "label": 1,
+    "mean_score_prediction": 3.728935874765739
+  },
+  {
+    "image_id": "2077",
+    "label": 0,
+    "mean_score_prediction": 2.1985042695887387
+  },
+  {
+    "image_id": "2081",
+    "label": 1,
+    "mean_score_prediction": 3.3192238053306937
+  },
+  {
+    "image_id": "210",
+    "label": 0,
+    "mean_score_prediction": 2.7516897916793823
+  },
+  {
+    "image_id": "2100",
+    "label": 1,
+    "mean_score_prediction": 3.8895737691782415
+  },
+  {
+    "image_id": "2111",
+    "label": 1,
+    "mean_score_prediction": 3.0182216335088015
+  },
+  {
+    "image_id": "2129",
+    "label": 0,
+    "mean_score_prediction": 1.8797879754565656
+  },
+  {
+    "image_id": "2137",
+    "label": 0,
+    "mean_score_prediction": 2.8137685768306255
+  },
+  {
+    "image_id": "2146",
+    "label": 1,
+    "mean_score_prediction": 4.287601887481287
+  },
+  {
+    "image_id": "2160",
+    "label": 1,
+    "mean_score_prediction": 3.367788811214268
+  },
+  {
+    "image_id": "2165",
+    "label": 0,
+    "mean_score_prediction": 2.0212767184711993
+  },
+  {
+    "image_id": "2179",
+    "label": 1,
+    "mean_score_prediction": 3.5236500734463334
+  },
+  {
+    "image_id": "2192",
+    "label": 1,
+    "mean_score_prediction": 3.312774045392871
+  },
+  {
+    "image_id": "2206",
+    "label": 1,
+    "mean_score_prediction": 4.012754300492816
+  },
+  {
+    "image_id": "222",
+    "label": 1,
+    "mean_score_prediction": 4.4427781330641665
+  },
+  {
+    "image_id": "2226",
+    "label": 0,
+    "mean_score_prediction": 2.0189714008010924
+  },
+  {
+    "image_id": "2247",
+    "label": 1,
+    "mean_score_prediction": 3.030935324728489
+  },
+  {
+    "image_id": "2255",
+    "label": 0,
+    "mean_score_prediction": 2.488792771473527
+  },
+  {
+    "image_id": "2288",
+    "label": 1,
+    "mean_score_prediction": 4.16019161514123
+  },
+  {
+    "image_id": "2312",
+    "label": 1,
+    "mean_score_prediction": 3.2385768042877316
+  },
+  {
+    "image_id": "2322",
+    "label": 0,
+    "mean_score_prediction": 1.7513115326873958
+  },
+  {
+    "image_id": "2328",
+    "label": 1,
+    "mean_score_prediction": 3.0043816342949867
+  },
+  {
+    "image_id": "2341",
+    "label": 1,
+    "mean_score_prediction": 4.2481408477178775
+  },
+  {
+    "image_id": "2354",
+    "label": 1,
+    "mean_score_prediction": 3.2138828486204147
+  },
+  {
+    "image_id": "2362",
+    "label": 0,
+    "mean_score_prediction": 1.9024154322687536
+  },
+  {
+    "image_id": "2375",
+    "label": 0,
+    "mean_score_prediction": 2.6233290154486895
+  },
+  {
+    "image_id": "2385",
+    "label": 1,
+    "mean_score_prediction": 3.586346606258303
+  },
+  {
+    "image_id": "2389",
+    "label": 0,
+    "mean_score_prediction": 1.7801389584783465
+  },
+  {
+    "image_id": "2395",
+    "label": 1,
+    "mean_score_prediction": 4.124166541383602
+  },
+  {
+    "image_id": "2401",
+    "label": 1,
+    "mean_score_prediction": 3.8865694192936644
+  },
+  {
+    "image_id": "2402",
+    "label": 0,
+    "mean_score_prediction": 2.5785387568175793
+  },
+  {
+    "image_id": "2407",
+    "label": 0,
+    "mean_score_prediction": 2.640601694583893
+  },
+  {
+    "image_id": "2413",
+    "label": 1,
+    "mean_score_prediction": 3.8089658222161233
+  },
+  {
+    "image_id": "2416",
+    "label": 0,
+    "mean_score_prediction": 2.022191093303263
+  },
+  {
+    "image_id": "2433",
+    "label": 0,
+    "mean_score_prediction": 1.39981675191666
+  },
+  {
+    "image_id": "2459",
+    "label": 1,
+    "mean_score_prediction": 3.4614973356947303
+  },
+  {
+    "image_id": "2462",
+    "label": 1,
+    "mean_score_prediction": 3.9835775452665985
+  },
+  {
+    "image_id": "2469",
+    "label": 1,
+    "mean_score_prediction": 3.496121841482818
+  },
+  {
+    "image_id": "2486",
+    "label": 0,
+    "mean_score_prediction": 1.3492712096340256
+  },
+  {
+    "image_id": "2497",
+    "label": 1,
+    "mean_score_prediction": 3.167032530531287
+  },
+  {
+    "image_id": "2499",
+    "label": 0,
+    "mean_score_prediction": 1.5938518199836835
+  },
+  {
+    "image_id": "2506",
+    "label": 1,
+    "mean_score_prediction": 3.801608130102977
+  },
+  {
+    "image_id": "2515",
+    "label": 0,
+    "mean_score_prediction": 2.95413083396852
+  },
+  {
+    "image_id": "2530",
+    "label": 1,
+    "mean_score_prediction": 4.265516606858
+  },
+  {
+    "image_id": "2551",
+    "label": 0,
+    "mean_score_prediction": 2.4661556035280228
+  },
+  {
+    "image_id": "2573",
+    "label": 0,
+    "mean_score_prediction": 2.6521368864923716
+  },
+  {
+    "image_id": "2585",
+    "label": 0,
+    "mean_score_prediction": 2.9779960848391056
+  },
+  {
+    "image_id": "260",
+    "label": 1,
+    "mean_score_prediction": 3.773602013476193
+  },
+  {
+    "image_id": "2609",
+    "label": 0,
+    "mean_score_prediction": 2.9258328527212143
+  },
+  {
+    "image_id": "2611",
+    "label": 1,
+    "mean_score_prediction": 3.1985391452908516
+  },
+  {
+    "image_id": "2621",
+    "label": 1,
+    "mean_score_prediction": 4.018741845706245
+  },
+  {
+    "image_id": "2624",
+    "label": 1,
+    "mean_score_prediction": 3.005058642476797
+  },
+  {
+    "image_id": "2627",
+    "label": 1,
+    "mean_score_prediction": 4.009377000853419
+  },
+  {
+    "image_id": "2628",
+    "label": 0,
+    "mean_score_prediction": 2.90262496098876
+  },
+  {
+    "image_id": "2633",
+    "label": 1,
+    "mean_score_prediction": 3.8832853954518214
+  },
+  {
+    "image_id": "2643",
+    "label": 0,
+    "mean_score_prediction": 2.817399486899376
+  },
+  {
+    "image_id": "2735",
+    "label": 1,
+    "mean_score_prediction": 3.4667716128751636
+  },
+  {
+    "image_id": "2758",
+    "label": 1,
+    "mean_score_prediction": 3.897246936132433
+  },
+  {
+    "image_id": "2764",
+    "label": 0,
+    "mean_score_prediction": 2.203279821202159
+  },
+  {
+    "image_id": "2766",
+    "label": 0,
+    "mean_score_prediction": 2.8936654403805733
+  },
+  {
+    "image_id": "277",
+    "label": 1,
+    "mean_score_prediction": 3.726284916512668
+  },
+  {
+    "image_id": "2784",
+    "label": 1,
+    "mean_score_prediction": 3.3312742430716753
+  },
+  {
+    "image_id": "2790",
+    "label": 1,
+    "mean_score_prediction": 3.574695773422718
+  },
+  {
+    "image_id": "2798",
+    "label": 0,
+    "mean_score_prediction": 2.1395466895774007
+  },
+  {
+    "image_id": "2846",
+    "label": 1,
+    "mean_score_prediction": 3.4907082086429
+  },
+  {
+    "image_id": "2847",
+    "label": 0,
+    "mean_score_prediction": 1.6274949263897724
+  },
+  {
+    "image_id": "2849",
+    "label": 0,
+    "mean_score_prediction": 2.368440035264939
+  },
+  {
+    "image_id": "2890",
+    "label": 0,
+    "mean_score_prediction": 1.9112369446083903
+  },
+  {
+    "image_id": "2908",
+    "label": 1,
+    "mean_score_prediction": 4.059354440076277
+  },
+  {
+    "image_id": "291",
+    "label": 1,
+    "mean_score_prediction": 3.1931286873295903
+  },
+  {
+    "image_id": "2913",
+    "label": 0,
+    "mean_score_prediction": 1.4188385548477527
+  },
+  {
+    "image_id": "2915",
+    "label": 0,
+    "mean_score_prediction": 2.7794547341763973
+  },
+  {
+    "image_id": "2916",
+    "label": 1,
+    "mean_score_prediction": 3.388801185414195
+  },
+  {
+    "image_id": "2917",
+    "label": 1,
+    "mean_score_prediction": 3.5865768825169653
+  },
+  {
+    "image_id": "2919",
+    "label": 1,
+    "mean_score_prediction": 3.165462575852871
+  },
+  {
+    "image_id": "2922",
+    "label": 1,
+    "mean_score_prediction": 3.8189000129932538
+  },
+  {
+    "image_id": "2987",
+    "label": 0,
+    "mean_score_prediction": 1.526705497642979
+  },
+  {
+    "image_id": "2998",
+    "label": 1,
+    "mean_score_prediction": 3.252635721117258
+  },
+  {
+    "image_id": "30",
+    "label": 1,
+    "mean_score_prediction": 3.274883231613785
+  },
+  {
+    "image_id": "3023",
+    "label": 0,
+    "mean_score_prediction": 2.378307138569653
+  },
+  {
+    "image_id": "3027",
+    "label": 0,
+    "mean_score_prediction": 2.3332584677264094
+  },
+  {
+    "image_id": "303",
+    "label": 1,
+    "mean_score_prediction": 3.6894473833963275
+  },
+  {
+    "image_id": "3050",
+    "label": 0,
+    "mean_score_prediction": 2.633136887103319
+  },
+  {
+    "image_id": "3062",
+    "label": 0,
+    "mean_score_prediction": 2.04468264663592
+  },
+  {
+    "image_id": "3069",
+    "label": 0,
+    "mean_score_prediction": 2.826707974076271
+  },
+  {
+    "image_id": "3076",
+    "label": 0,
+    "mean_score_prediction": 1.5253344483207911
+  },
+  {
+    "image_id": "3119",
+    "label": 0,
+    "mean_score_prediction": 2.669613979756832
+  },
+  {
+    "image_id": "3120",
+    "label": 0,
+    "mean_score_prediction": 2.0188945119734854
+  },
+  {
+    "image_id": "3132",
+    "label": 0,
+    "mean_score_prediction": 1.458075196511345
+  },
+  {
+    "image_id": "3135",
+    "label": 1,
+    "mean_score_prediction": 4.2935909401858225
+  },
+  {
+    "image_id": "3139",
+    "label": 1,
+    "mean_score_prediction": 4.221374316199217
+  },
+  {
+    "image_id": "3144",
+    "label": 1,
+    "mean_score_prediction": 3.6162964031100273
+  },
+  {
+    "image_id": "3161",
+    "label": 0,
+    "mean_score_prediction": 2.835304157808423
+  },
+  {
+    "image_id": "3204",
+    "label": 1,
+    "mean_score_prediction": 3.444891468156129
+  },
+  {
+    "image_id": "3218",
+    "label": 1,
+    "mean_score_prediction": 3.719204072258435
+  },
+  {
+    "image_id": "3220",
+    "label": 0,
+    "mean_score_prediction": 1.6039026838261634
+  },
+  {
+    "image_id": "3224",
+    "label": 1,
+    "mean_score_prediction": 4.483573297858129
+  },
+  {
+    "image_id": "3228",
+    "label": 1,
+    "mean_score_prediction": 3.129036983475089
+  },
+  {
+    "image_id": "323",
+    "label": 0,
+    "mean_score_prediction": 2.9320782124996185
+  },
+  {
+    "image_id": "3234",
+    "label": 0,
+    "mean_score_prediction": 2.3981179208494723
+  },
+  {
+    "image_id": "3269",
+    "label": 1,
+    "mean_score_prediction": 3.4815121577121317
+  },
+  {
+    "image_id": "3285",
+    "label": 0,
+    "mean_score_prediction": 2.4523940468207
+  },
+  {
+    "image_id": "3286",
+    "label": 1,
+    "mean_score_prediction": 3.3714985847473145
+  },
+  {
+    "image_id": "3295",
+    "label": 1,
+    "mean_score_prediction": 4.308227533281752
+  },
+  {
+    "image_id": "33",
+    "label": 1,
+    "mean_score_prediction": 3.1294835656881332
+  },
+  {
+    "image_id": "3319",
+    "label": 1,
+    "mean_score_prediction": 4.26954584903433
+  },
+  {
+    "image_id": "333",
+    "label": 0,
+    "mean_score_prediction": 1.4711875348584726
+  },
+  {
+    "image_id": "3336",
+    "label": 1,
+    "mean_score_prediction": 3.15297066885978
+  },
+  {
+    "image_id": "3358",
+    "label": 0,
+    "mean_score_prediction": 2.9864654764533043
+  },
+  {
+    "image_id": "339",
+    "label": 1,
+    "mean_score_prediction": 3.72735703131184
+  },
+  {
+    "image_id": "3397",
+    "label": 1,
+    "mean_score_prediction": 4.192646876559593
+  },
+  {
+    "image_id": "3401",
+    "label": 1,
+    "mean_score_prediction": 3.330607128329575
+  },
+  {
+    "image_id": "3420",
+    "label": 1,
+    "mean_score_prediction": 3.074721058830619
+  },
+  {
+    "image_id": "3432",
+    "label": 1,
+    "mean_score_prediction": 3.809413752052933
+  },
+  {
+    "image_id": "3450",
+    "label": 1,
+    "mean_score_prediction": 3.985684236511588
+  },
+  {
+    "image_id": "3451",
+    "label": 0,
+    "mean_score_prediction": 1.2974579627625644
+  },
+  {
+    "image_id": "3455",
+    "label": 1,
+    "mean_score_prediction": 3.8399567184969783
+  },
+  {
+    "image_id": "3457",
+    "label": 1,
+    "mean_score_prediction": 3.9609890412539244
+  },
+  {
+    "image_id": "3464",
+    "label": 0,
+    "mean_score_prediction": 2.525815769098699
+  },
+  {
+    "image_id": "3469",
+    "label": 0,
+    "mean_score_prediction": 1.337658772165014
+  },
+  {
+    "image_id": "3470",
+    "label": 0,
+    "mean_score_prediction": 1.3995205978426384
+  },
+  {
+    "image_id": "3475",
+    "label": 0,
+    "mean_score_prediction": 1.7938863805029541
+  },
+  {
+    "image_id": "3484",
+    "label": 1,
+    "mean_score_prediction": 3.1264964044094086
+  },
+  {
+    "image_id": "3487",
+    "label": 1,
+    "mean_score_prediction": 3.3588725086301565
+  },
+  {
+    "image_id": "3492",
+    "label": 0,
+    "mean_score_prediction": 1.8705780068412423
+  },
+  {
+    "image_id": "3522",
+    "label": 1,
+    "mean_score_prediction": 3.6451317346654832
+  },
+  {
+    "image_id": "3532",
+    "label": 0,
+    "mean_score_prediction": 2.2805137680843472
+  },
+  {
+    "image_id": "3558",
+    "label": 0,
+    "mean_score_prediction": 1.3719909448118415
+  },
+  {
+    "image_id": "3581",
+    "label": 1,
+    "mean_score_prediction": 4.0715339859743835
+  },
+  {
+    "image_id": "3596",
+    "label": 0,
+    "mean_score_prediction": 1.9789807591587305
+  },
+  {
+    "image_id": "3607",
+    "label": 0,
+    "mean_score_prediction": 2.180941654369235
+  },
+  {
+    "image_id": "3631",
+    "label": 1,
+    "mean_score_prediction": 3.7886157345492393
+  },
+  {
+    "image_id": "3633",
+    "label": 0,
+    "mean_score_prediction": 1.6793442856287584
+  },
+  {
+    "image_id": "3639",
+    "label": 1,
+    "mean_score_prediction": 3.323229629546404
+  },
+  {
+    "image_id": "3641",
+    "label": 0,
+    "mean_score_prediction": 1.3675458971993066
+  },
+  {
+    "image_id": "3642",
+    "label": 1,
+    "mean_score_prediction": 4.279242830751173
+  },
+  {
+    "image_id": "3647",
+    "label": 1,
+    "mean_score_prediction": 3.896890242351219
+  },
+  {
+    "image_id": "366",
+    "label": 0,
+    "mean_score_prediction": 2.3996845725923777
+  },
+  {
+    "image_id": "3703",
+    "label": 1,
+    "mean_score_prediction": 3.4614950651302934
+  },
+  {
+    "image_id": "3706",
+    "label": 0,
+    "mean_score_prediction": 1.922394631896168
+  },
+  {
+    "image_id": "3714",
+    "label": 0,
+    "mean_score_prediction": 1.309030950495071
+  },
+  {
+    "image_id": "3728",
+    "label": 0,
+    "mean_score_prediction": 2.145572563400492
+  },
+  {
+    "image_id": "3741",
+    "label": 0,
+    "mean_score_prediction": 1.4671532426727936
+  },
+  {
+    "image_id": "3745",
+    "label": 0,
+    "mean_score_prediction": 2.4497071113437414
+  },
+  {
+    "image_id": "3768",
+    "label": 1,
+    "mean_score_prediction": 4.066465794108808
+  },
+  {
+    "image_id": "3790",
+    "label": 0,
+    "mean_score_prediction": 1.3639574845292373
+  },
+  {
+    "image_id": "3836",
+    "label": 1,
+    "mean_score_prediction": 4.159599451406393
+  },
+  {
+    "image_id": "3837",
+    "label": 1,
+    "mean_score_prediction": 3.823278409894556
+  },
+  {
+    "image_id": "3839",
+    "label": 1,
+    "mean_score_prediction": 3.1329485047608614
+  },
+  {
+    "image_id": "386",
+    "label": 0,
+    "mean_score_prediction": 2.249673412181437
+  },
+  {
+    "image_id": "3864",
+    "label": 1,
+    "mean_score_prediction": 3.8649529204703867
+  },
+  {
+    "image_id": "3883",
+    "label": 0,
+    "mean_score_prediction": 2.955532366409898
+  },
+  {
+    "image_id": "3884",
+    "label": 0,
+    "mean_score_prediction": 1.999578318442218
+  },
+  {
+    "image_id": "3902",
+    "label": 0,
+    "mean_score_prediction": 1.5186470691114664
+  },
+  {
+    "image_id": "391",
+    "label": 0,
+    "mean_score_prediction": 2.853308191522956
+  },
+  {
+    "image_id": "3923",
+    "label": 1,
+    "mean_score_prediction": 3.2812005132436752
+  },
+  {
+    "image_id": "394",
+    "label": 0,
+    "mean_score_prediction": 2.7473092172294855
+  },
+  {
+    "image_id": "3961",
+    "label": 0,
+    "mean_score_prediction": 2.6515701450407505
+  },
+  {
+    "image_id": "3965",
+    "label": 0,
+    "mean_score_prediction": 2.963690347969532
+  },
+  {
+    "image_id": "3971",
+    "label": 0,
+    "mean_score_prediction": 2.817084014415741
+  },
+  {
+    "image_id": "3985",
+    "label": 1,
+    "mean_score_prediction": 3.2265194822102785
+  },
+  {
+    "image_id": "402",
+    "label": 0,
+    "mean_score_prediction": 1.6884380946285091
+  },
+  {
+    "image_id": "4053",
+    "label": 1,
+    "mean_score_prediction": 3.73822096089134
+  },
+  {
+    "image_id": "4056",
+    "label": 1,
+    "mean_score_prediction": 4.1151376001071185
+  },
+  {
+    "image_id": "4059",
+    "label": 0,
+    "mean_score_prediction": 2.432465476449579
+  },
+  {
+    "image_id": "4077",
+    "label": 1,
+    "mean_score_prediction": 3.0860049054026604
+  },
+  {
+    "image_id": "4082",
+    "label": 0,
+    "mean_score_prediction": 2.0200599911622703
+  },
+  {
+    "image_id": "4090",
+    "label": 0,
+    "mean_score_prediction": 1.59644288913114
+  },
+  {
+    "image_id": "41",
+    "label": 1,
+    "mean_score_prediction": 3.716718780458905
+  },
+  {
+    "image_id": "4117",
+    "label": 0,
+    "mean_score_prediction": 1.826195606845431
+  },
+  {
+    "image_id": "4136",
+    "label": 1,
+    "mean_score_prediction": 3.9849038980173646
+  },
+  {
+    "image_id": "414",
+    "label": 1,
+    "mean_score_prediction": 3.742599315010011
+  },
+  {
+    "image_id": "4143",
+    "label": 0,
+    "mean_score_prediction": 2.9354205932468176
+  },
+  {
+    "image_id": "4178",
+    "label": 1,
+    "mean_score_prediction": 3.8723944313824177
+  },
+  {
+    "image_id": "42",
+    "label": 1,
+    "mean_score_prediction": 3.4434036538004875
+  },
+  {
+    "image_id": "4209",
+    "label": 0,
+    "mean_score_prediction": 1.695838287472725
+  },
+  {
+    "image_id": "4213",
+    "label": 1,
+    "mean_score_prediction": 4.003459923318587
+  },
+  {
+    "image_id": "426",
+    "label": 0,
+    "mean_score_prediction": 1.2053446271802386
+  },
+  {
+    "image_id": "4262",
+    "label": 0,
+    "mean_score_prediction": 2.5477856528013945
+  },
+  {
+    "image_id": "428",
+    "label": 1,
+    "mean_score_prediction": 4.226219774340279
+  },
+  {
+    "image_id": "4282",
+    "label": 0,
+    "mean_score_prediction": 1.9275365397334099
+  },
+  {
+    "image_id": "429",
+    "label": 1,
+    "mean_score_prediction": 4.07815809501335
+  },
+  {
+    "image_id": "4300",
+    "label": 0,
+    "mean_score_prediction": 2.3986354786902666
+  },
+  {
+    "image_id": "4302",
+    "label": 0,
+    "mean_score_prediction": 2.1414251988753676
+  },
+  {
+    "image_id": "4305",
+    "label": 0,
+    "mean_score_prediction": 1.865196623839438
+  },
+  {
+    "image_id": "4320",
+    "label": 0,
+    "mean_score_prediction": 2.3437311872839928
+  },
+  {
+    "image_id": "4328",
+    "label": 1,
+    "mean_score_prediction": 3.2001473549753428
+  },
+  {
+    "image_id": "4338",
+    "label": 0,
+    "mean_score_prediction": 1.7004193206084892
+  },
+  {
+    "image_id": "4375",
+    "label": 1,
+    "mean_score_prediction": 3.658185798674822
+  },
+  {
+    "image_id": "4380",
+    "label": 0,
+    "mean_score_prediction": 2.5674513783305883
+  },
+  {
+    "image_id": "4440",
+    "label": 0,
+    "mean_score_prediction": 1.7894955787342042
+  },
+  {
+    "image_id": "4442",
+    "label": 1,
+    "mean_score_prediction": 3.7659249641001225
+  },
+  {
+    "image_id": "4466",
+    "label": 1,
+    "mean_score_prediction": 3.5947291729971766
+  },
+  {
+    "image_id": "4476",
+    "label": 0,
+    "mean_score_prediction": 2.8280589627102017
+  },
+  {
+    "image_id": "448",
+    "label": 0,
+    "mean_score_prediction": 2.8324157763272524
+  },
+  {
+    "image_id": "4494",
+    "label": 0,
+    "mean_score_prediction": 2.4947538767009974
+  },
+  {
+    "image_id": "4505",
+    "label": 0,
+    "mean_score_prediction": 2.3630618900060654
+  },
+  {
+    "image_id": "4511",
+    "label": 1,
+    "mean_score_prediction": 3.5067769484594464
+  },
+  {
+    "image_id": "4512",
+    "label": 1,
+    "mean_score_prediction": 3.507316116243601
+  },
+  {
+    "image_id": "4515",
+    "label": 0,
+    "mean_score_prediction": 2.0742336278781295
+  },
+  {
+    "image_id": "4523",
+    "label": 1,
+    "mean_score_prediction": 3.4018043424002826
+  },
+  {
+    "image_id": "4530",
+    "label": 1,
+    "mean_score_prediction": 3.760446836706251
+  },
+  {
+    "image_id": "4531",
+    "label": 0,
+    "mean_score_prediction": 2.5790646113455296
+  },
+  {
+    "image_id": "4546",
+    "label": 1,
+    "mean_score_prediction": 3.4637743360362947
+  },
+  {
+    "image_id": "4551",
+    "label": 0,
+    "mean_score_prediction": 2.099541644565761
+  },
+  {
+    "image_id": "4581",
+    "label": 1,
+    "mean_score_prediction": 3.4075876069255173
+  },
+  {
+    "image_id": "4585",
+    "label": 1,
+    "mean_score_prediction": 3.1347348298877478
+  },
+  {
+    "image_id": "4591",
+    "label": 1,
+    "mean_score_prediction": 4.43954535564626
+  },
+  {
+    "image_id": "4600",
+    "label": 0,
+    "mean_score_prediction": 2.30538828112185
+  },
+  {
+    "image_id": "4606",
+    "label": 0,
+    "mean_score_prediction": 1.7508112689247355
+  },
+  {
+    "image_id": "4630",
+    "label": 1,
+    "mean_score_prediction": 3.833281069644727
+  },
+  {
+    "image_id": "4638",
+    "label": 0,
+    "mean_score_prediction": 2.7299313442781568
+  },
+  {
+    "image_id": "4644",
+    "label": 0,
+    "mean_score_prediction": 2.8952134922146797
+  },
+  {
+    "image_id": "4645",
+    "label": 0,
+    "mean_score_prediction": 2.6952959429472685
+  },
+  {
+    "image_id": "4669",
+    "label": 1,
+    "mean_score_prediction": 4.089377567986958
+  },
+  {
+    "image_id": "4711",
+    "label": 1,
+    "mean_score_prediction": 3.1949247615411878
+  },
+  {
+    "image_id": "472",
+    "label": 1,
+    "mean_score_prediction": 3.0023909360170364
+  },
+  {
+    "image_id": "4744",
+    "label": 0,
+    "mean_score_prediction": 2.8812691792845726
+  },
+  {
+    "image_id": "4749",
+    "label": 0,
+    "mean_score_prediction": 2.301433052867651
+  },
+  {
+    "image_id": "4769",
+    "label": 1,
+    "mean_score_prediction": 3.2103718258440495
+  },
+  {
+    "image_id": "4825",
+    "label": 1,
+    "mean_score_prediction": 3.382729410659522
+  },
+  {
+    "image_id": "4839",
+    "label": 0,
+    "mean_score_prediction": 1.4354618790384848
+  },
+  {
+    "image_id": "4842",
+    "label": 1,
+    "mean_score_prediction": 3.433665892109275
+  },
+  {
+    "image_id": "4846",
+    "label": 0,
+    "mean_score_prediction": 2.318123521283269
+  },
+  {
+    "image_id": "4855",
+    "label": 1,
+    "mean_score_prediction": 3.9599785179598257
+  },
+  {
+    "image_id": "4867",
+    "label": 1,
+    "mean_score_prediction": 4.11672137491405
+  },
+  {
+    "image_id": "4876",
+    "label": 0,
+    "mean_score_prediction": 1.5020980343106203
+  },
+  {
+    "image_id": "4889",
+    "label": 1,
+    "mean_score_prediction": 3.3773802183568478
+  },
+  {
+    "image_id": "4895",
+    "label": 1,
+    "mean_score_prediction": 3.6919574950588867
+  },
+  {
+    "image_id": "4902",
+    "label": 1,
+    "mean_score_prediction": 3.9132403497351333
+  },
+  {
+    "image_id": "4925",
+    "label": 1,
+    "mean_score_prediction": 4.119494625250809
+  },
+  {
+    "image_id": "4938",
+    "label": 0,
+    "mean_score_prediction": 2.5503928996622562
+  },
+  {
+    "image_id": "4965",
+    "label": 0,
+    "mean_score_prediction": 1.5242393849766813
+  },
+  {
+    "image_id": "4983",
+    "label": 0,
+    "mean_score_prediction": 1.3799508119409438
+  },
+  {
+    "image_id": "4985",
+    "label": 1,
+    "mean_score_prediction": 3.1980537697672844
+  },
+  {
+    "image_id": "501",
+    "label": 0,
+    "mean_score_prediction": 1.2726294104395492
+  },
+  {
+    "image_id": "510",
+    "label": 0,
+    "mean_score_prediction": 1.592033954744693
+  },
+  {
+    "image_id": "511",
+    "label": 0,
+    "mean_score_prediction": 2.0661108721978962
+  },
+  {
+    "image_id": "532",
+    "label": 1,
+    "mean_score_prediction": 3.831862358376384
+  },
+  {
+    "image_id": "534",
+    "label": 0,
+    "mean_score_prediction": 1.4415556461317465
+  },
+  {
+    "image_id": "542",
+    "label": 1,
+    "mean_score_prediction": 3.5982148107141256
+  },
+  {
+    "image_id": "543",
+    "label": 1,
+    "mean_score_prediction": 3.138443833217025
+  },
+  {
+    "image_id": "562",
+    "label": 1,
+    "mean_score_prediction": 3.1114687640219927
+  },
+  {
+    "image_id": "572",
+    "label": 0,
+    "mean_score_prediction": 2.7660651728510857
+  },
+  {
+    "image_id": "600",
+    "label": 1,
+    "mean_score_prediction": 3.4038750077597797
+  },
+  {
+    "image_id": "615",
+    "label": 1,
+    "mean_score_prediction": 4.2491024205082795
+  },
+  {
+    "image_id": "625",
+    "label": 1,
+    "mean_score_prediction": 3.257622629404068
+  },
+  {
+    "image_id": "631",
+    "label": 1,
+    "mean_score_prediction": 4.049557664548047
+  },
+  {
+    "image_id": "633",
+    "label": 1,
+    "mean_score_prediction": 3.2590559627860785
+  },
+  {
+    "image_id": "638",
+    "label": 1,
+    "mean_score_prediction": 3.1986295469105244
+  },
+  {
+    "image_id": "660",
+    "label": 0,
+    "mean_score_prediction": 1.4879396051401272
+  },
+  {
+    "image_id": "682",
+    "label": 1,
+    "mean_score_prediction": 3.4877706794068217
+  },
+  {
+    "image_id": "683",
+    "label": 1,
+    "mean_score_prediction": 3.2467895383015275
+  },
+  {
+    "image_id": "688",
+    "label": 1,
+    "mean_score_prediction": 3.1501350179314613
+  },
+  {
+    "image_id": "695",
+    "label": 1,
+    "mean_score_prediction": 3.0428700372576714
+  },
+  {
+    "image_id": "7",
+    "label": 0,
+    "mean_score_prediction": 1.6987825151300058
+  },
+  {
+    "image_id": "73",
+    "label": 1,
+    "mean_score_prediction": 3.8555130399763584
+  },
+  {
+    "image_id": "733",
+    "label": 0,
+    "mean_score_prediction": 2.846575766801834
+  },
+  {
+    "image_id": "742",
+    "label": 0,
+    "mean_score_prediction": 2.2637159982696176
+  },
+  {
+    "image_id": "745",
+    "label": 1,
+    "mean_score_prediction": 3.3231014534831047
+  },
+  {
+    "image_id": "751",
+    "label": 0,
+    "mean_score_prediction": 2.9022054746747017
+  },
+  {
+    "image_id": "767",
+    "label": 0,
+    "mean_score_prediction": 2.5695142708718777
+  },
+  {
+    "image_id": "772",
+    "label": 0,
+    "mean_score_prediction": 2.1573422783985734
+  },
+  {
+    "image_id": "78",
+    "label": 1,
+    "mean_score_prediction": 3.981343217077665
+  },
+  {
+    "image_id": "794",
+    "label": 1,
+    "mean_score_prediction": 3.15667724609375
+  },
+  {
+    "image_id": "799",
+    "label": 0,
+    "mean_score_prediction": 1.3612173212313792
+  },
+  {
+    "image_id": "80",
+    "label": 1,
+    "mean_score_prediction": 3.037729401141405
+  },
+  {
+    "image_id": "801",
+    "label": 1,
+    "mean_score_prediction": 4.1432714679976925
+  },
+  {
+    "image_id": "810",
+    "label": 0,
+    "mean_score_prediction": 2.3416687343269587
+  },
+  {
+    "image_id": "827",
+    "label": 1,
+    "mean_score_prediction": 3.332722544670105
+  },
+  {
+    "image_id": "830",
+    "label": 1,
+    "mean_score_prediction": 3.0189560428261757
+  },
+  {
+    "image_id": "847",
+    "label": 1,
+    "mean_score_prediction": 3.2696628477424383
+  },
+  {
+    "image_id": "855",
+    "label": 0,
+    "mean_score_prediction": 2.907422538846731
+  },
+  {
+    "image_id": "867",
+    "label": 1,
+    "mean_score_prediction": 3.7159688109532
+  },
+  {
+    "image_id": "874",
+    "label": 0,
+    "mean_score_prediction": 2.843447905033827
+  },
+  {
+    "image_id": "895",
+    "label": 0,
+    "mean_score_prediction": 1.6065263291820884
+  },
+  {
+    "image_id": "914",
+    "label": 0,
+    "mean_score_prediction": 2.883820068091154
+  },
+  {
+    "image_id": "936",
+    "label": 0,
+    "mean_score_prediction": 2.450456164777279
+  },
+  {
+    "image_id": "941",
+    "label": 1,
+    "mean_score_prediction": 3.928552503348328
+  },
+  {
+    "image_id": "971",
+    "label": 0,
+    "mean_score_prediction": 1.5343926668865606
+  },
+  {
+    "image_id": "974",
+    "label": 1,
+    "mean_score_prediction": 3.1273483596742153
+  }
+]

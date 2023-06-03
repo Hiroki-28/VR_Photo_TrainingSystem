@@ -1,0 +1,95 @@
+@import url(sanitize.css);
+body {
+    background-color: #f0f0f0;
+    padding: 10px;
+    font-size: 14px;
+    color: #666666;
+}
+
+.container {
+    width: 1175px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .3);
+}
+
+header {
+    background-color: #197216;
+    padding: 7.5px;
+    color: #ffffff;
+}
+
+header h1 {
+    font-family: serif;
+    margin: 0;
+    font-size: 25px;
+    padding: 5px;
+    text-align: center;
+}
+
+.content h1 {
+    margin: 20px 20px 20px 35px;
+    /* margin: 20px; */
+}
+
+.description {
+    text-align: center;
+}
+
+.description img {
+    max-width: 180px;
+    /* float: left; */
+    margin: 20px 20px 15px 20px;
+    padding: 0px;
+}
+
+/* マウスが重なったときに画像を透明にする */
+.description img:hover {
+    opacity: .9;
+}
+
+.description2 {
+    text-align: center;
+}
+
+.description2 h2 {
+    /* margin: 25px 0px 25px 0px; */
+    padding: 40px 0px 5px 0px;
+}
+
+
+.description2 img {
+    max-width: 350px;
+    /* float: left; */
+    margin: 20px 0px 40px 130px;
+    padding: 0px;
+}
+
+
+.btn {
+    width: 25%;
+    font-size: 26px;
+    font-family: serif;
+    margin: 40px 12.5px 30px 12.5px;
+}
+
+.img2 {
+    float: left;
+}
+
+/* .color_score {
+    margin: 75px 0px 45px 0px;
+} */
+
+.box{
+    width: 50px;
+    height: 50px;
+    margin: 0px 5px 35px 5px;
+    border: 1px solid black ;
+    border-radius: 0.25em;
+  }
+
+.clearfix:after {
+    content: " ";
+    display: table;
+    clear:both;
+}

@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>色彩データセットのラベル付け</title>
+        <meta name="viewport" content="width=device-width">
+        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>色彩データセットのラベル付け (part1)</h1>
+            </header>
+
+            <div class="content">
+                <div id="step_num">
+                </div>
+                <!-- step1で利用 -->
+                <div class="description" id="img_unit"></div>
+                <!-- step1のみの利用はここまで -->
+                <!-- step2で利用 -->
+                <div class="description2">
+                    <div class="img2" id="img_unit2"></div>
+                    <div id="description_unit2"></div>
+                    <div class="radiobutton" id="radiobutton"></div>
+                </div>
+                <!-- step2のみの利用はここまで -->
+                <div id="which" class="description clearfix">
+                </div>
+            </div>
+        </div>
+
+        <script>
+            // initialization
+            var part = 1;
+            var count = 1; //grobal variable
+            var step = 1; //grobal variable
+            var json = []; //output file, grobal variable
+            var addData;
+            var first_step_list = ['img1.jpg', 'img2.jpg', 'img3.jpg', 'img4.jpg', 'img5.jpg', 'img6.jpg', 'img7.jpg', 'img8.jpg', 'img9.jpg'];
+            var second_step_list = ['img10.jpg'];
+            var good_img_list = [];
+            var clicked_color_score = [];
+            var color_question_list = [];
+            for (i=0; i<125; i++){
+                good_img_list[i] = []
+                color_question_list[i] = []
+            }
+
+            if(localStorage.getItem('good_img_json1') != null){
+                if (window.localStorage) {
+                    good_img_json = localStorage.getItem('good_img_json1');
+                    good_img_list = JSON.parse(good_img_json);
+                }
+            }
+            if(localStorage.getItem('color_score_json1') != null){
+                if (window.localStorage) {
+                    color_score_json = localStorage.getItem('color_score_json1');
+                    clicked_color_score = JSON.parse(color_score_json);
+                }
+            }
+            if(localStorage.getItem('color_question_json1') != null){
+                if (window.localStorage) {
+                    color_question_json = localStorage.getItem('color_question_json1');
+                    color_question_list = JSON.parse(color_question_json);
+                }
+            }
+            if(localStorage.getItem('count1') != null){
+                if (window.localStorage) {
+                    count = localStorage.getItem('count1');
+                    count = parseInt(count);
+                }
+            }
+            // ローカルストレージがすでにある場合は削除
+            localStorage.clear();
+            // Webページ表示
+            showPages(first_step_list);
+
+            // 赤枠表示・クリック情報として追加
+            for (i=0; i<good_img_list[count-1].length; i++){
+                selected_img = good_img_list[count-1][i]
+                create_boader_add_click_information(selected_img);
+            }
+            
+            window.addEventListener('pagehide', function(event) {
+                if (window.localStorage && count <= 125) {
+                    good_img_json = JSON.stringify(good_img_list);
+                    localStorage.setItem('good_img_json1', good_img_json);
+                    color_score_json = JSON.stringify(clicked_color_score);
+                    localStorage.setItem('color_score_json1', color_score_json);
+                    color_question_json = JSON.stringify(color_question_list)
+                    localStorage.setItem('color_question_json1', color_question_json);
+                    localStorage.setItem('count1', count);
+                }
+            });
+            
+            window.addEventListener('beforeunload', function(event) {
+                event.preventDefault();
+                event.returnValue = '';
+            });
+
+            function showPages(image_list) {
+                // 既にあるWebページ上にある要素を削除
+                delete_element();
+
+                // 枚数とステップ数を表示
+                h1 = document.createElement('h1');
+                h1.innerHTML = '[125枚中' + String(count) + '枚目' + ' (step: ' + String(step) + '/2)] <font size=+1>　※0~9枚選択してください</font>';
+                document.getElementById('step_num').appendChild(h1);
+
+                //img要素を作成
+                for (var i=0; i<image_list.length; i++){
+                    img_id = image_list[i].split('.')[0].split('g')[1]
+                    img = document.createElement('img'); 
+                    img.setAttribute('id', String(img_id)); // idを設定
+                    img.setAttribute('src', 'img/' + String(count + 125*(part-1)) + '/' + image_list[i]); //ex. img src="img/1/img1.jpg"
+                    document.getElementById('img_unit').appendChild(img);
+                    addEventListenerImg(img_id);  //イベントドリブン, ユーザーの操作に反応させる
+                }
+
+                // BACKボタン作成
+                if (count != 1 || step != 1){
+                    button = document.createElement('button');
+                    button.setAttribute('id', "back");
+                    button.setAttribute('class', "btn");
+                    button.innerHTML = "◁ BACK";
+                    document.getElementById('which').appendChild(button);
+                    BackButtonEventListener('back');
+                }
+
+                // NEXTボタン作成
+                button = document.createElement('button');
+                button.setAttribute('id', "next");
+                button.setAttribute('class', "btn");
+                button.innerHTML = "NEXT ▷";
+                document.getElementById('which').appendChild(button);
+                NextButtonEventListener('next');
+            }
+
+            function showPages2(image_list) {
+                // 既にあるWebページ上にある要素を削除
+                delete_element();
+
+                // 枚数とステップ数を表示
+                h1 = document.createElement('h1');
+                h1.innerHTML = '[125枚中' + String(count) + '枚目' + ' (step: ' + String(step) + '/2)]';
+                document.getElementById('step_num').appendChild(h1);
+
+                // img要素作成 (Webページの左側)
+                img = document.createElement('img');
+                img.setAttribute('id', '10'); // idを設定 (id=10)
+                img.setAttribute('src', 'img/' + String(count + 125*(part-1)) + '/' + image_list[0]); //img src="img/img1.jpg"
+                document.getElementById('img_unit2').appendChild(img);
+
+                // テキストを作成
+                h2 = document.createElement('h2');
+                h2.innerHTML = '左の写真を色の観点で評価した点数';
+                document.getElementById('description_unit2').appendChild(h2);
+
+                // スコアボタン(1点~5点)を作成
+                for (var i=1; i<=5; i++){
+                    button = document.createElement('button');
+                    button.setAttribute('class', "box");
+                    button.setAttribute('id', "color_" + String(i)); // idを設定
+                    button.innerHTML = String(i) + "点";
+                    document.getElementById('description_unit2').appendChild(button);
+                    addEventListenerColor(i);  //イベントドリブン, ユーザーの操作に反応させる
+                }
+
+                // 質問文とラジオボタンを作成
+                for (var i=1; i<=3; i++){
+                    // 質問文を作成
+                    question = document.createElement('h3');
+                    if (i == 1){
+                        question.innerHTML = '1. 被写体と背景の間に、コントラストを感じるか？'
+                    }else if (i == 2){
+                        question.innerHTML = '2. 明るさは適切か？(特に問題なければYes)'
+                    }else if(i == 3){
+                        question.innerHTML = '3. 全体的に配色が調和されていると感じるか？'
+                    }
+                    document.getElementById('radiobutton').appendChild(question);
+                    
+                    // ラジオボタン(Yes, No)を作成
+                    for (var j=1; j<=2; j++){
+                        radiobutton = document.createElement('input');
+                        var radio_id = (i-1)*2 + j;
+                        radiobutton.setAttribute('id', 'radio_' + String(radio_id));
+                        radiobutton.setAttribute('type', "radio");
+                        radiobutton.setAttribute('name', "q" + String(i));
+                        radiobutton.setAttribute('value', String(radio_id));
+                        document.getElementById('radiobutton').appendChild(radiobutton);
+                        label = document.createElement('label');
+                        if (j == 1){
+                            label.innerHTML = "Yes ";
+                        } else if (j == 2){
+                            label.innerHTML = "No ";
+                        }
+                        document.getElementById('radiobutton').appendChild(label);
+                        addEventListenerRadioButton(radio_id);
+                    }
+                }
+
+                // 改行 (Nextボタンとの余白を作成)
+                br = document.createElement('div');  
+                br.innerHTML = '<br>'
+                document.getElementById('radiobutton').appendChild(br);
+
+                // BACKボタン作成
+                button = document.createElement('button');
+                button.setAttribute('id', "back");
+                button.setAttribute('class', "btn");
+                button.innerHTML = "◁ BACK";
+                document.getElementById('which').appendChild(button);
+                BackButtonEventListener('back');
+
+                // NEXTボタン作成
+                button = document.createElement('button');
+                button.setAttribute('id', "next");
+                button.setAttribute('class', "btn");
+                button.innerHTML = "NEXT ▷";
+                document.getElementById('which').appendChild(button);
+                NextButtonEventListener('next');
+            }
+
+            // 赤枠の作成 + クリック情報を記録
+            function create_boader_add_click_information(selected_img){
+                img_id = selected_img.split('.')[0].split('g')[1]
+                // ユーザーが1回前に選択した画像
+                obj = document.getElementById(img_id);
+                // 赤枠をつける
+                obj.style.border = "solid 5px red";
+                // クリックリストに追加
+                path = obj.src;
+            }
+        
+            // ステップ1の画像選択のためのイベントドリブン
+            function addEventListenerImg(value){
+                // image eventLister
+                document.getElementById(String(value)).addEventListener('click', function() {
+                    obj = document.getElementById(String(value));
+                    path = obj.src;
+                    fileName = path.split('/').reverse()[0];
+                    if (good_img_list[count-1].includes(fileName)){
+                        good_img_list[count-1].splice(good_img_list[count-1].indexOf(fileName), 1);  //配列内の要素を削除, 配列.splice(スタート位置, 削除する要素数)
+                        obj.style.borderWidth = "0px";
+                    } else {
+                        good_img_list[count-1].push(fileName);
+                        obj.style.border = "solid 5px red";
+                    }
+                })
+            }
+
+            // Backボタンのイベントドリブン
+            function BackButtonEventListener(str){
+                document.getElementById(str).addEventListener('click', function(){
+                    if (step == 1) {
+                        count = count - 1
+                        step = 2
+                        showPages2(second_step_list)
+                        // ユーザーが1度選択したスコアのボタンを赤色に変える
+                        obj = document.getElementById("color_" + String(clicked_color_score[count-1]));
+                        obj.style.backgroundColor = "#F5989D";  //ローズピンク
+                        // ユーザーが1度選択したラジオボタンにチェックを入れる
+                        for (i=0; i<color_question_list[count-1].length; i++){
+                            obj = document.getElementById('radio_' +String(color_question_list[count-1][i]));
+                            obj.checked = true ;
+                        }
+                    }
+                    else if (step == 2) {
+                        step = 1
+                        showPages(first_step_list);
+                        for (i=0; i<good_img_list[count-1].length; i++){
+                            selected_img = good_img_list[count-1][i]
+                            create_boader_add_click_information(selected_img);
+                        }
+                    }
+                })
+            }
+
+            // Nextボタンのイベントドリブン
+            function NextButtonEventListener(str){
+                document.getElementById(str).addEventListener('click', function(){
+                    if (step == 1) {
+                        // step2に遷移
+                        step = 2;
+                        showPages2(second_step_list);
+                        // 色のスコアを評価した回数が、count(今、何枚目かを表す)以上のとき、1度選んだボタンを赤色に変える
+                        if (count <= clicked_color_score.length){
+                            obj = document.getElementById("color_" + String(clicked_color_score[count-1]));
+                            obj.style.backgroundColor = "#F5989D";  //ローズピンク
+                        }
+                        // 色の質問リストにおいても、1度選んだラジオボタンをチェックする
+                        for (i=0; i<color_question_list[count-1].length; i++){
+                            obj = document.getElementById('radio_' +String(color_question_list[count-1][i]));
+                            obj.checked = true ;
+                        }
+
+                    } else if (step == 2 && count <= clicked_color_score.length && color_question_list[count-1].length == 3) {
+                        count += 1
+                        if (count <= 125) {
+                            step = 1
+                            showPages(first_step_list);
+                            // もし既に選択した画像があれば、赤枠で囲む
+                            for (i=0; i<good_img_list[count-1].length; i++){
+                                selected_img = good_img_list[count-1][i]
+                                create_boader_add_click_information(selected_img);
+                            }
+                        } 
+                        else {
+                            json_save();
+                            finish();
+                        }
+                    }
+                })   
+            }
+
+            function addEventListenerRadioButton(value){
+                document.getElementById("radio_" + String(value)).addEventListener('click', function() {
+                    // リストに含まれていないなら、追加。ペアのボタンの要素を削除(あれば)。
+                    if (color_question_list[count-1].includes(value)==false){
+                        // 選択された要素(radio_id)を追加
+                        color_question_list[count-1].push(value);
+                        // ペアのボタンの要素idを取得
+                        if (value % 2 == 1){               // valueが奇数(Yes)のとき -> 同じ質問のNoが含まれていたら、その要素を削除
+                            pair_value = value + 1;
+                        } else if (value % 2 == 0){        // valueが偶数(No)のとき -> 同じ質問のYesが含まれていたら、その要素を削除
+                            pair_value = value - 1;
+                        }
+                        // ペアの要素idがリストに入っている場合、削除
+                        if (color_question_list[count-1].includes(pair_value)){
+                            color_question_list[count-1].splice(color_question_list[count-1].indexOf(pair_value), 1);
+                        }
+                    }
+                })
+            }
+
+            function addEventListenerColor(value){
+                // マウスが重なったときに、ボタンを透明にする
+                document.getElementById("color_" + String(value)).addEventListener("mouseover", function() {
+                    obj = document.getElementById("color_" + String(value));
+                    obj.style.opacity = 0.6;
+                });
+                // マウスが離れたときに、元の状態に戻す
+                document.getElementById("color_" + String(value)).addEventListener("mouseout", function() {
+                    obj = document.getElementById("color_" + String(value));
+                    obj.style.opacity = 1.0;
+                });
+
+                // ユーザーが評価した結果を簡易的な配列(画像ごとにリセットされる配列)に保存
+                document.getElementById("color_" + String(value)).addEventListener('click', function() {
+                    obj = document.getElementById("color_" + String(value));
+                    score = value;
+                    // 他のスコアが入っているとき  (まず、リセット)
+                    if (clicked_color_score.length >= count){
+                        other_obj = document.getElementById("color_" + String(clicked_color_score[count-1]))
+                        other_obj.style.backgroundColor = "#f0f0f0";
+                        clicked_color_score[count-1] = score;
+                        obj.style.backgroundColor = "#F5989D";  //ローズピンク
+                    } else {   //color_scoreの長さがcountと異なるとき(countより1少ないとき)
+                        clicked_color_score.push(score);        // scoreを追加
+                        obj.style.backgroundColor = "#F5989D";  //ローズピンク
+                    }
+                })
+            }
+
+            function json_save() {
+                for (i=0; i<125; i++){
+                    addData = {folder_id: String(i+1+125*(part-1)), selected: good_img_list[i], color_score: clicked_color_score[i], color_question: color_question_list[i]};
+                    json.push(addData);
+                }
+                const fileName = "output_colorharmony_part1.json"; //output filename
+                const jsonData = JSON.stringify(json); //transform object data to json data
+                const link = document.createElement('a'); //create HTML link
+                link.setAttribute('href', 'data:text/plain,' + encodeURIComponent(jsonData));
+                link.setAttribute('download', fileName);
+                document.body.appendChild(link);
+                link.click();
+            }
+
+            function finish() {
+                delete_element();
+                h1 = document.createElement('h1');
+                h1.innerHTML = 'ありがとうございます。お疲れ様でした！';
+                h1.style.margin = "20px 20px 0px 35px";
+                document.getElementById('step_num').appendChild(h1);
+            }
+
+            function delete_element() {
+                while(document.getElementById('step_num').firstChild){
+                    document.getElementById('step_num').removeChild(document.getElementById('step_num').firstChild);
+                }
+                while(document.getElementById('description_unit2').firstChild){
+                    document.getElementById('description_unit2').removeChild(document.getElementById('description_unit2').firstChild);
+                }
+                while(document.getElementById('img_unit').firstChild){
+                    document.getElementById('img_unit').removeChild(document.getElementById('img_unit').firstChild);
+                }
+                while(document.getElementById('img_unit2').firstChild){
+                    document.getElementById('img_unit2').removeChild(document.getElementById('img_unit2').firstChild);
+                }
+                while(document.getElementById('radiobutton').firstChild){
+                    document.getElementById('radiobutton').removeChild(document.getElementById('radiobutton').firstChild);
+                }
+                while(document.getElementById('which').firstChild){
+                    document.getElementById('which').removeChild(document.getElementById('which').firstChild);
+                }
+            }
+
+        </script>
+    </body>
+</html>

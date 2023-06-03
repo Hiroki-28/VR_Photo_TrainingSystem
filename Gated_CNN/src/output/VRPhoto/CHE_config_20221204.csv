@@ -1,0 +1,6 @@
+dataset_tr_dir,../dataset/VRPhoto/data_811/train
+dataset_val_dir,../dataset/VRPhoto/data_811/valid
+batch_size,32
+learning_rate,0.001
+momentum,0.9
+weight_decay,0.0005
