@@ -1,5 +1,5 @@
 # VPN (View Proposal Net)
-This project uses code from ["Good View Hunting: Learning Photo Composition from Dense View Pairs"](https://github.com/zijunwei/ViewEvaluationNet/tree/master) by [**Zijun Wei**]
+This project uses code from ["Good View Hunting: Learning Photo Composition from Dense View Pairs"](https://github.com/zijunwei/ViewProposalNet) by [**Zijun Wei**]
 
 The original project was implemented in `Tensorflow 1.3`. Here, we have implemented it in `PyTorch`.
 
