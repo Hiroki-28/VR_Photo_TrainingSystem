@@ -1,7 +1,9 @@
 # VEN (View Evaluation Net)
 This project uses code from ["Good View Hunting: Learning Photo Composition from Dense View Pairs"](https://github.com/zijunwei/ViewEvaluationNet/tree/master) by [**Zijun Wei**]
 
-The original project did not provide files for training the model, so I created them. Just like the original project, it is implemented in Pytorch.
+The original project did not provide files for training the model, so I created them. 
+
+Just like the original project, it is implemented in `Pytorch`.
 
 ## Running
 
