@@ -1,5 +1,9 @@
 # VR Photo Training System
 In this repository, we provide information that contributed to the creation of the VR Photo Training System. This includes the machine learning models we used, the datasets we created, and the annotation system we developed.
+| System diagram
+| :--:
+| ![](readme_figures/System_diagram.png)
+
 
 We utilize the following four machine learning models for evaluating and recommending photographs.
 
@@ -20,3 +24,10 @@ Also, we use three existing datasets:
 1. **AVA Dataset** is used to pre-train the **NIMA** model ([Data](https://github.com/imfing/ava_downloader))
 2. **CPC Dataset** is used to pre-train the **VEN** and **VPN** models ([Data](https://www3.cs.stonybrook.edu/~cvl/projects/wei2018goods/VPN_CVPR2018s.html))
 3. **FLMS Dataset** is used to evaluate the **VEN** and **VPN** models ([Data](http://fangchen.org/proj_page/FLMS_mm14/data/radomir500_image/image.tar), [Annotation](http://fangchen.org/proj_page/FLMS_mm14/data/radomir500_gt/release_data.tar))
+
+## How to utilize this system
+| Illustrations of using the VR Photo Training System
+| :--:
+| ![](readme_figures/VR_Photo_Training_System.png)
+
+Firstly, use the VR controller to select camera parameters such as aperture value and lens focal length from a panel within the VR interface (left image). After parameter selection, manipulate the virtual camera using the VR controller to take a photo of the subject (center image). Select the captured photo from the virtual album for it to be automatically evaluated (right image). If required, a sample image demonstrating a more optimal composition will be presented.
