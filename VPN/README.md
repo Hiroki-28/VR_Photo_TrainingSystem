@@ -28,4 +28,4 @@ docker build -t vpn:ver1 .
 docker run --name VPN_ver1 --gpus all -it -v </path/to/your/ViewProposalNet/src>:/home/VPN/src vpn:ver1
 ```
 In this command, `</path/to/your/ViewProposalNet/src>` should be replaced with the path to the project source code on your local system.
-`VPN_ver1` is the name of the Docker container you are creating. This can be changed as needed. `vpn:ver1` is the name of the Docker image you built earlier. `--gpus all` option allows the Docker container to access all GPUs, if you are using GPU(s).
+`VPN_ver1` is the name of the Docker container you are creating. This can be changed as needed. `--gpus all` option allows the Docker container to access all GPUs, if you are using GPU(s). `vpn:ver1` is the name of the Docker image you built earlier.
