@@ -14,7 +14,7 @@ Just like the original project, it is implemented in `PyTorch`.
 ```
 python train.py
 ```
-However, please modify the arguments in the parser of train.py as needed.
+Please modify the arguments in the parser of train.py as needed.
 
 ## If you use Docker
 1. Navigate to the docker directory where the Dockerfile is located, and build your Docker image with the following command:
