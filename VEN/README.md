@@ -28,4 +28,4 @@ docker build -t ven:ver1 .
 docker run --name VEN_ver1 --gpus all -it -v </path/to/your/ViewEvaluationNet/src>:/home/VEN/src ven:ver1
 ```
 In this command, `</path/to/your/ViewEvaluationNet/src>` should be replaced with the path to the project source code on your local system.
-`VEN_ver1` is the name of the Docker container you are creating. This can be changed as needed. `ven:ver1` is the name of the Docker image you built earlier. `--gpus all` option allows the Docker container to access all GPUs, if you are using GPU(s).
+`VEN_ver1` is the name of the Docker container you are creating. This can be changed as needed. `--gpus all` option allows the Docker container to access all GPUs, if you are using GPU(s). `ven:ver1` is the name of the Docker image you built earlier.
