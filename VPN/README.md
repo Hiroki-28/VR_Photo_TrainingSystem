@@ -1,5 +1,5 @@
 # View Proposal Net
-This project takes reference from the code of ["Good View Hunting: Learning Photo Composition from Dense View Pairs"](https://github.com/zijunwei/ViewProposalNet) by [**Zijun Wei**]
+This project takes reference from the code of ["Good View Hunting: Learning Photo Composition from Dense View Pairs"](https://github.com/zijunwei/ViewProposalNet) by [**Zijun Wei**].
 
 The original project was implemented in `Tensorflow 1.3`. However, since `Tensorflow 1.x` is an earlier version, I implemented it in `PyTorch` to match the VEN code. Also, the original project did not include files to train the model, therefore I created them.
 
